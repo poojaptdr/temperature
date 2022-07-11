@@ -18,7 +18,7 @@ h1{
     position: relative;
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .container{
         max-width: 400px;
         width: 100%;
