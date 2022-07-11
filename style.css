@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+ .container{
+    text-align: center;
+    background: cyan;
+    padding: 50px; 
+    position: relative;
+}
+
+@media(max-width: 400px){
+    .container{
+        max-width: 400px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    } 
+ }
+.box{
+    margin: 1rem;
+    display: inline-block;
+}
+
+label{
+    font-weight: 600;
+    font-size: 25px;
+    display: block;
+}
+
+.inp{
+    padding: 0.5rem 1.5rem;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 250px;
+}
+@media(max-width:400px){
+    .inp{
+        padding: 0.5rem 1.3rem;
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        width: 200px;
+    }
+}
